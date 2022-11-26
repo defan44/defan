@@ -6,7 +6,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
  let tag = `@${m.sender.split('@')[0]}`
  let ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 9999999999, status: 1, surface: 1, message: `${command} ${type}`, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
-  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;ᴹᴿ᭄defα͢͢͢ή彡;;;\nFN:ᴹᴿ᭄defα͢͢͢ή彡\nORG:ᴹᴿ᭄defα͢͢͢ή彡\nTITLE:\nitem1.TEL;waid=6381321776496:+62 813-2177-6496\nitem1.X-ABLabel:ᴹᴿ᭄defα͢͢͢ή彡\nX-WA-BIZ-DESCRIPTION:${htjava} Tᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ sᴀᴠᴇ ᴋᴏɴᴛᴀᴋ!!\nX-WA-BIZ-NAME:ᴹᴿ᭄defα͢͢͢ή彡\nEND:VCARD`
+  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;ᴹᴿ᭄defα͢͢͢ή彡;;;\nFN:ᴹᴿ᭄defα͢͢͢ή彡\nORG:ᴹᴿ᭄defα͢͢͢ή彡\nTITLE:\nitem1.TEL;waid=6281321776496:+62 813-2177-6496\nitem1.X-ABLabel:ᴹᴿ᭄defα͢͢͢ή彡\nX-WA-BIZ-DESCRIPTION:${htjava} Tᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ sᴀᴠᴇ ᴋᴏɴᴛᴀᴋ!!\nX-WA-BIZ-NAME:ᴹᴿ᭄defα͢͢͢ή彡\nEND:VCARD`
 //------- NOMOR
  const pp = fs.readFileSync('./media/own.jpg')
   let nowner1 = `${nomorown1.split`@`[0]}@s.whatsapp.net`
